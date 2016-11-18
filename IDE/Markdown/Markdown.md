@@ -3,7 +3,7 @@
 > #### 关于作者QQ:375461826
 
 #Markdown简介
-######Markdown 是一种轻量级的「标记语言」它目前被越来越多的写作爱好者、撰稿者、程序员所使用。
+######Markdown 是一种轻量级的(优雅的)「标记语言」它目前被越来越多的写作爱好者、撰稿者、程序员所使用。
 ######Markdown 的语法十分简单，它用简洁的语法代替排版。
 ######而不像一般我们用的字处理软件 Word 或 Pages 有大量的排版、字体设置。
 ######它使我们专心于码字，用「标记」语法，来代替常见的排版格式。
@@ -132,32 +132,40 @@ Some of these words _are emphasized also_.
 	
 
 ## 6. 表格   
-######说明: Markdown支持html，所以我们可以用html来写表格。
-######效果: 待续
+######说明:  
  
-<table class="table table-bordered table-striped table-condensed" >
-   <tr>
-      <th>John</th>
-      <th>Smith</th>
-      <th>123 Main St.</th>
-      <th>Springfield</th>
-   </tr>
-   <tr> 
-      <td><code>System.out.println("123")</code></td>
-      <td>Jones<I>要设为斜体的内容</I></td>
-      <td></td> 
-      <td>Dover</td> 
-   </tr>
-   <tr>
-      <td>Jim</td>
-      <td>Baker</td>
-      <td>789 Park Ave.</td>
-      <td>Lincoln</td>
-   </tr>
-</table>
+######方法一:Markdown
+	| Tables        | Are           | Cool  | 
+	| ------------- |-------------  | ----- |  
+	| col 3 is      | right-aligned | $1600 |  
+	| col 2 is      | centered      |   $12 |  
+	| zebra stripes | are neat      |    $1 | 
+######效果: 
+| Tables        | Are           | Cool  | 
+| ------------- | ------------- | ----- |  
+| col 3 is      | right-aligned | $1600 | 
+| col 2 is      | centered      |   $12 | 
+| zebra stripes | are neat      |    $1 | 
+######方法二:Markdown支持html，所以我们可以用html来写表格。
+	<table class="table table-bordered table-striped table-condensed" >
+	   <tr>
+	      <th>John</th>
+	      <th>Smith</th>
+	      <th>123 Main St.</th>
+	      <th>Springfield</th>
+	   </tr>
+	   <tr> 
+	      <td><code>System.out.println("123")</code></td>
+	      <td>Jones<I>要设为斜体的内容</I></td>
+	      <td></td> 
+	      <td>Dover</td> 
+	   </tr>
+	   <tr>
+	      <td>Jim</td>
+	      <td>Baker</td>
+	      <td>789 Park Ave.</td>
+	      <td>Lincoln</td>
+	   </tr>
+	</table>
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+######效果: 
