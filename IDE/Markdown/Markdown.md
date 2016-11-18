@@ -134,17 +134,18 @@ Some of these words _are emphasized also_.
 ## 6. 表格   
 ######说明:  
  
-######方法一:Markdown
+######方法一:Markdown的表格语法
 	| Tables        | Are           | Cool  | 
 	| ------------- |-------------  | ----- |  
 	| col 3 is      | right-aligned | $1600 |  
 	| col 2 is      | centered      |   $12 |  
 	| zebra stripes | are neat      |    $1 | 
-######效果: 
+######效果: 注意:在MarkdownPad程序中无法正常显示,但是GITHUB中可以正常显示,这是由于各种软件对于Mardown语法支持的程序不同决定的
 | Tables        | Are           | Cool  | 
 | ------------- | ------------- | ----- |  
 | col 3 is      | right-aligned | $1600 | 
 | col 2 is      | centered      |   $12 | 
+
 | zebra stripes | are neat      |    $1 | 
 ######方法二:Markdown支持html，所以我们可以用html来写表格。
 	<table class="table table-bordered table-striped table-condensed" >
@@ -168,4 +169,24 @@ Some of these words _are emphasized also_.
 	   </tr>
 	</table>
 
-######效果: 
+######效果: 注意:在MarkdownPad程序中无法正常显示,但是GITHUB中可以正常显示,这是由于各种软件对于Mardown语法支持的程序不同决定的
+<table class="table table-bordered table-striped table-condensed" >
+   <tr>
+      <th>John</th>
+      <th>Smith</th>
+      <th>123 Main St.</th>
+      <th>Springfield</th>
+   </tr>
+   <tr> 
+      <td><code>System.out.println("123")</code></td>
+      <td>Jones<I>要设为斜体的内容</I></td>
+      <td></td> 
+      <td>Dover</td> 
+   </tr>
+   <tr>
+      <td>Jim</td>
+      <td>Baker</td>
+      <td>789 Park Ave.</td>
+      <td>Lincoln</td>
+   </tr>
+</table>
