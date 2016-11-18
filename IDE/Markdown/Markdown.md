@@ -131,8 +131,7 @@ Some of these words _are emphasized also_.
 `printf()`
 	
 
-## 6. 表格   
-######说明:  
+## 6. 表格    
  
 ######方法一:Markdown的表格语法
 	| Tables        | Are           | Cool  | 
@@ -140,7 +139,7 @@ Some of these words _are emphasized also_.
 	| col 3 is      | right-aligned | $1600 |  
 	| col 2 is      | centered      |   $12 |  
 	| zebra stripes | are neat      |    $1 | 
-######效果: 注意:在MarkdownPad程序中无法正常显示,但是GITHUB中可以正常显示,这是由于各种软件对于Mardown语法支持的程序不同决定的
+######效果: 注意,在MarkdownPad程序中无法正常显示,但是GITHUB中可以正常显示,这是由于各种软件对于Mardown语法支持的程序不同决定的
 | Tables        | Are           | Cool  | 
 | ------------- | ------------- | ----- |  
 | col 3 is      | right-aligned | $1600 | 
@@ -169,7 +168,7 @@ Some of these words _are emphasized also_.
 	   </tr>
 	</table>
 
-######效果: 注意:在MarkdownPad程序中无法正常显示,但是GITHUB中可以正常显示,这是由于各种软件对于Mardown语法支持的程序不同决定的
+######效果: 注意,在MarkdownPad程序中无法正常显示,但是GITHUB中可以正常显示,这是由于各种软件对于Mardown语法支持的程序不同决定的
 <table class="table table-bordered table-striped table-condensed" >
    <tr>
       <th>John</th>
@@ -190,3 +189,8 @@ Some of these words _are emphasized also_.
       <td>Lincoln</td>
    </tr>
 </table>
+
+
+#总结
+######到这风景点Markdown的语法到这里就介绍完了,总共不超过10个语法规则,一旦熟悉这种语法规则，会有一劳永逸的效果。
+######另外，除外除非是做研究，不要当孔乙己，祝大家工作愉快！
