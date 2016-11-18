@@ -3,9 +3,6 @@
 
 #Markdown简介
 　　　　　Markdown 是一种轻量级的(优雅的)「标记语言」它目前被越来越多的写作爱好者、撰稿者、程序员所使用。Markdown 的语法十分简单，它用简洁的语法代替排版。而不像一般我们用的字处理软件 Word 或 Pages 有大量的排版、字体设置。它使我们专心于码字，用「标记」语法，来代替常见的排版格式。使用Markdown语言所编辑的文件后缀名为.md
-#####　　小技巧指北:
-#####　　关于如果让段首缩进这件事?
-#####　　Markdown 奉行的是样式和内容分开的哲学。所以不会处理缩进的问题，我们可以把输入法切换成全角,然后按下空格来达到"段首缩进"的效果，快捷键Shift+space。
 
 #Markdown官网 
 ######*[http://daringfireball.net/projects/markdown/basics](http://daringfireball.net/projects/markdown/basics)*
@@ -186,7 +183,9 @@ Some of these words _are emphasized also_.
       <td>Lincoln</td>
    </tr>
 </table>
-
+#####　　小技巧指北:
+#####　　关于如果让段首缩进这件事?
+#####　　Markdown 奉行的是样式和内容分开的哲学。所以不会处理缩进的问题，我们可以把输入法切换成全角,然后按下空格来达到"段首缩进"的效果，快捷键Shift+space。
 
 #总结
 　　　到这里Markdown的语法到这里就介绍完了,总共不超过10个语法规则,一旦熟悉这种语法规则，会有一劳永逸的效果。另外，除外除非是做研究，不要当码乙己，祝大家工作愉快！(笔者注:本文也是用Markdown完成。)
