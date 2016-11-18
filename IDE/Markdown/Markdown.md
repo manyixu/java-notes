@@ -131,8 +131,33 @@ Some of these words _are emphasized also_.
 `printf()`
 	
 
-## 6. 表格  待续
-######说明: 待续  
+## 6. 表格   
+######说明: Markdown支持html，所以我们可以用html来写表格。
 ######效果: 待续
-	 
+ 
+<table class="table table-bordered table-striped table-condensed" >
+   <tr>
+      <th>John</th>
+      <th>Smith</th>
+      <th>123 Main St.</th>
+      <th>Springfield</th>
+   </tr>
+   <tr> 
+      <td><code>System.out.println("123")</code></td>
+      <td>Jones<I>要设为斜体的内容</I></td>
+      <td></td> 
+      <td>Dover</td> 
+   </tr>
+   <tr>
+      <td>Jim</td>
+      <td>Baker</td>
+      <td>789 Park Ave.</td>
+      <td>Lincoln</td>
+   </tr>
+</table>
 
+
+|| *Year* || *Temperature (low)* || *Temperature (high)* ||
+|| 1900 || -10 || 25 ||
+|| 1910 || -15 || 30 ||
+|| 1920 || -10 || 32 ||
